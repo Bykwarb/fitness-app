@@ -1,42 +1,32 @@
-package com.example.exerciseservice.entity;
+package com.example.workoutservice.entity;
 
 import jakarta.persistence.*;
 import jakarta.validation.constraints.Min;
 import jakarta.validation.constraints.NotNull;
 import lombok.Data;
 
+import java.util.List;
+
 @Entity
 @Data
-public class Exercise {
+public class Workout {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
+    @Column(name = "workout_name")
     @NotNull
-    @Column(name = "exercise")
     private String name;
-
     private String description;
 
-    private String instruction;
-
     @NotNull
-    private Type type;
+    @ElementCollection
+    private List<Long> exercisesId;
 
-    @Min(1)
-    private Integer sets;
-
-    @Min(1)
-    private Integer reps;
-
+    @Min(value = 0)
+    private Integer caloriesBurned;
     private Boolean isDefault;
 
     private Long creatorId;
-
-    public enum Type{
-        CARDIO,
-        POWER,
-        STRETCHES
-    }
 }
