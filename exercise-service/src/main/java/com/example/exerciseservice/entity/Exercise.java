@@ -24,6 +24,10 @@ public class Exercise {
 
     private Integer reps;
 
+    private Boolean isDefault;
+
+    private Long creatorId;
+
     public enum Type{
         CARDIO,
         POWER,

@@ -15,6 +15,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="excercise-service" target="17" />
+      <module name="exercises-service" target="17" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
