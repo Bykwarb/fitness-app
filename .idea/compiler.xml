@@ -7,14 +7,20 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="menu-service" />
         <module name="Fitify" />
         <module name="food-service" />
+        <module name="menu-service" />
+        <module name="exercise-service" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="excercise-service" target="17" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="excercise-service" options="-parameters" />
+      <module name="exercise-service" options="-parameters" />
       <module name="food-service" options="-parameters" />
       <module name="menu-service" options="-parameters" />
     </option>

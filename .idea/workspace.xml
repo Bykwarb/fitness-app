@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a1ea8427-8c48-48e5-87fd-3a3e09d24687" name="Changes" comment="added menu-service">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="a1ea8427-8c48-48e5-87fd-3a3e09d24687" name="Changes" comment="added menu-service" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -168,9 +165,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExercisesServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="exercises-service" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.exercisesservice.ExercisesServiceApplication" />
+    <configuration name="ExcerciseServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="excercise-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.excerciseservice.ExcerciseServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExerciseServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="exercise-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.exerciseservice.ExerciseServiceApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -200,9 +204,6 @@
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
-  <component name="SvnConfiguration">
-    <configuration>C:\Users\nebyk\AppData\Roaming\Subversion</configuration>
-  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="a1ea8427-8c48-48e5-87fd-3a3e09d24687" name="Changes" comment="" />
@@ -218,8 +219,8 @@
       <workItem from="1679649191913" duration="663000" />
       <workItem from="1679728723767" duration="3788000" />
       <workItem from="1679757808606" duration="1004000" />
-      <workItem from="1679810828284" duration="890000" />
-      <workItem from="1679812232614" duration="508000" />
+      <workItem from="1679810828284" duration="713000" />
+      <workItem from="1679839949394" duration="3721000" />
     </task>
     <task id="LOCAL-00001" summary="added menu-service">
       <created>1679810905590</created>
@@ -228,14 +229,7 @@
       <option name="project" value="LOCAL" />
       <updated>1679810905590</updated>
     </task>
-    <task id="LOCAL-00002" summary="added menu-service">
-      <created>1679811576577</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1679811576577</updated>
-    </task>
-    <option name="localTasksCounter" value="3" />
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
